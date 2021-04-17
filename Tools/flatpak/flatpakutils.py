@@ -796,15 +796,16 @@ class WebkitFlatpak:
             })
 
         env_var_prefixes_to_keep = [
-            "G",
             "CCACHE",
             "EGL",
+            "G",
             "GIGACAGE",
             "GTK",
             "ICECC",
             "JSC",
-            "MESA",
             "LIBGL",
+            "MESA",
+            "NICE",
             "PIPEWIRE",
             "RUST",
             "SCCACHE",
